@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["john@kohactive.com"]
   spec.description   = "A responsive image gem for Rails and Carrierwave"
   spec.summary       = "A responsive image gem for Rails and Carrierwave"
-  spec.homepage      = "https://github.com/johnkoht/responsive-images"
+  spec.homepage      = "https://github.com/ej2015/responsive-images"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

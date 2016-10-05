@@ -34,7 +34,7 @@ module ResponsiveImages
     def src_path image, sizes
       case device_type
       when :desktop
-        image_src = sizes[:sizes][:desktop].present ? image.send(sizes[:sizes][:desktop]).url : image.send(sizes[:default]).url
+        image_src = sizes[:sizes][:desktop].present? ? image.send(sizes[:sizes][:desktop]).url : image.send(sizes[:default]).url
       when :tablet
         image_src = sizes[:sizes][:tablet].present? ? image.send(sizes[:sizes][:tablet]).url : image.send(sizes[:default]).url
       when :mobile
